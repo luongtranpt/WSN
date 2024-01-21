@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=SCK Pin=JP1-2
+Removed Pin From Net: NetName=SD0 Pin=JP1-3
+Added Pin To Net: NetName=SD0 Pin=JP1-2
+Added Pin To Net: NetName=SCK Pin=JP1-3
+Added Member To Class: ClassName=MCU Member=Component  S4
+Added Member To Class: ClassName=MCU Member=Component U3 CH340C
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

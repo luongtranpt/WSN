@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "wifi_ap.h": "c",
+        "wifi_sta.h": "c",
+        "webserver.h": "c",
+        "mqtt.h": "c",
+        "uart_user.h": "c",
+        "sx1278.h": "c",
+        "queue.h": "c"
+    }
+}

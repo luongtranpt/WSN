@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=C4 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VBAT Pin=JP2-1
+Removed Pin From Net: NetName=VBAT Pin=U5-1
+Added Pin To Net: NetName=3V3 Pin=C4-2
+Added Pin To Net: NetName=VCCB Pin=JP2-1
+Added Pin To Net: NetName=VCCB Pin=U5-1
+Added Net: Name=VCCB
+Added Room: Name=LCD
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER
+Added Room: Name=SENSOR

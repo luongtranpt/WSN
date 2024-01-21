@@ -1,0 +1,11 @@
+Change Component Footprint: Designator=C5 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C6 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C7 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C8 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C9 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Added Member To Class: ClassName=MCU Member=Component  S4
+Added Member To Class: ClassName=MCU Member=Component U3 CH340C
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

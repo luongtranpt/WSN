@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=SWDIO Pin=U1-34
+Removed Pin From Net: NetName=SWCLK Pin=U1-37
+Added Pin To Net: NetName=SWDIO Pin=C6-3
+Added Pin To Net: NetName=SWCLK Pin=C6-4
+Added Room: Name=LCD
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER
+Added Room: Name=SENSOR

@@ -1,0 +1,24 @@
+Sleep: Chỉ SPI và thanh ghi có thể truy cập, FIFO không thể truy cập.
+Standby: FIFO có thể truy cập
+TX: Kích hoạt tất cả các khối để gửi, gửi packet rồi về Standby.
+RXContinuous: Kích hoạt tất cả các khối để nhận, xử lý tất cả các packet nhận được đến khi user chuyển mode.
+RXSingle: Kích hoạt tất cả các khối để nhận, duy trì đến khi nhận được packet (hoặc đến khi timeout) rồi về Standby.
+
+FIFO buffer được xóa khi device được đặt ở Sleep. Tuy nhiên data ở FIFO được giữ lại khi chuyển ở các mode khác của LoRa. FIFO buffer không tự xóa trừ khi ở Sleep và sẽ chỉ có thể bị xóa khi một dữ liệu mới được ghi vào vị trí ô nhớ đó.
+
+FIFO buffer location có thể được đọc và ghi qua SPI bằng thanh ghi RegFifoAddrPtr. Khi đọc hoặc ghi vào FIFO buffer (RegFifo), RegFifoAddrPtr sẽ tự động tăng.
+
+RegRxNbBytes xác định kích thước của vị trí bộ nhớ sẽ được ghi trong trường hợp nhận thành công.
+
+Sử dụng PA_OUTPUT là PA_BOOST (do module dùng chân PA không dùng chân RFO).
+
+Data Reception Sequence:
+Single Reception Operation Mode: Ở mode này, device tìm preamble trong chu kỳ thời gian cho trước. Nếu không tìm được preamble thì device tạo ngắt RxTimeout và quay lại Standby. Độ dài của reception window (in symbols) được xác định bởi RegSymb Timeout và nên nằm trong phạm vi từ 4-1023. 
+Ở cuối payload, ngắt RxDone được tạo cùng với ngắt PayloadCrcError nếu payload CRC invalid. Tuy nhiên kể cả khi CRC invalid, data vẫn được viết vào FIFO. Theo sau ngắt RxDone thì sẽ chuyển sang Standby.
+Mode Single Rx sẽ tự động chuyển sang Standby khi có ngắt RxDone. Vì thế mode này chỉ được sử dụng khi biết trước được khung thời gian packet đến. 
+
+Continuous Reception Operating Mode: Ở mode này, device scan liên tục để tìm preamble. Một khi tìm được preamble, device theo nó cho đến khi packet được nhận và sau đó tiếp tục đợi preamble tiếp theo.
+Nếu độ dài preamble vượt quá giá trị dự kiến được set ở thanh ghi RegPreambleMsb và RegPreambleLsb ... Ở chế dộ Rx Countinuous, ngắt RxTimeout sẽ không được xảy ra và thiết bị sẽ không bao giờ tự động sang Standby.
+
+Payload Data Extraction from FIFO:
+Để lấy data nhận được từ FIFO, user phải chắc chắn rằng ngắt ValidHeader, PayloadCrcError, RxDone và RxTimeout trong thanh ghi RegIrqFlags không được set để chắc chắn packet nhận được đã dừng thành công. 

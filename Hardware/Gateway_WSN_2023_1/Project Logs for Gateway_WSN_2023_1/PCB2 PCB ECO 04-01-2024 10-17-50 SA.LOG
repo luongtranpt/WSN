@@ -1,0 +1,5 @@
+Change Component Comment : Designator=C4 Old Comment=104 New Comment=10uF
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

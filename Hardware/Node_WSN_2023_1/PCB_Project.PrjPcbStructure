@@ -1,0 +1,6 @@
+Record=TopLevelDocument|FileName=Sheet1.SchDoc
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=LCD|SchDesignator=LCD|FileName=[5]LCD.SchDoc|SymbolType=Normal|RawFileName=[5]LCD.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=LORA|SchDesignator=LORA|FileName=[4]LORA.SchDoc|SymbolType=Normal|RawFileName=[4]LORA.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=MCU|SchDesignator=MCU|FileName=[1]MCU.SchDoc|SymbolType=Normal|RawFileName=[1]MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=POWER|SchDesignator=POWER|FileName=[2]POWER|SymbolType=Normal|RawFileName=[2]POWER|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Sheet1.SchDoc|Designator=SENSOR|SchDesignator=SENSOR|FileName=[3]SENSOR.SchDoc|SymbolType=Normal|RawFileName=[3]SENSOR.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

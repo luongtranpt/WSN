@@ -1,0 +1,14 @@
+[DesignatorManager]
+LogicalDesignator0=LED5
+LogicalPartID0=1
+DocumentName0=POWER.SchDoc
+ChannelName0=POWER
+UniqueID0=\PBWCOPUG\ZYZCWMIY
+PhysicalDesignator0=3V3
+PhysicalDesignatorLocked0=0
+
+[SheetNumberManager]
+SheetNumberOrder=Display Order
+SheetNumberMethod=Increasing
+
+

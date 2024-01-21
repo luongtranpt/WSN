@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=NetLED5_1 New Net Name=Net3V3_1
+Added Member To Class: ClassName=MCU Member=Component JP1 JP8 PIN
+Added Member To Class: ClassName=MCU Member=Component  S4
+Added Member To Class: ClassName=MCU Member=Component U3 CH340C
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

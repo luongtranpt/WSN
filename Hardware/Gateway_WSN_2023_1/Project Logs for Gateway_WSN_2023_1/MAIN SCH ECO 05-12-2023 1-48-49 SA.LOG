@@ -1,0 +1,9 @@
+Remove Pin=JP1-5 From Net=GPIO35
+Remove Pin=JP1-6 From Net=GPIO34
+Remove Pin=JP1-7 From Net=GPIO5
+Add Pin To Net: Pin=JP1-2 Old Net=SDI New Net=GPIO27
+Add Pin To Net: Pin=JP1-3 Old Net=SD0 New Net=GPIO26
+Add Pin To Net: Pin=JP1-4 Old Net=SCK New Net=GPIO25
+Add Pin To Net: Pin=JP1-5 Old Net=GPIO35 New Net=GPIO13
+Add Pin To Net: Pin=JP1-6 Old Net=GPIO34 New Net=GPIO15
+Add Pin To Net: Pin=JP1-7 Old Net=GPIO5 New Net=GPIO4

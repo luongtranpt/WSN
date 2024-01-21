@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=VBAT Pin=C15-1
+Removed Pin From Net: NetName=VBAT Pin=IC1-1
+Removed Pin From Net: NetName=VBAT Pin=R11-2
+Added Component: Designator=SW5(JP3)
+Added Pin To Net: NetName=VBAT Pin=SW5-3
+Added Pin To Net: NetName=SWDIO Pin=U1-34
+Added Pin To Net: NetName=SWCLK Pin=U1-37
+Added Pin To Net: NetName=NetC15_1 Pin=C15-1
+Added Pin To Net: NetName=NetC15_1 Pin=IC1-1
+Added Pin To Net: NetName=NetC15_1 Pin=R11-2
+Added Pin To Net: NetName=NetC15_1 Pin=SW5-1
+Added Net: Name=NetC15_1
+Added Member To Class: ClassName=POWER Member=Component SW5 SW3
+Added Room: Name=LCD
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER
+Added Room: Name=SENSOR

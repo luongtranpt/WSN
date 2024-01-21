@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=LED3 Old Footprint=LED-3 New Footprint=LED-0805-Blue
+Change Component Footprint: Designator=R4 Old Footprint=SM-0805 New Footprint=SM-1206
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

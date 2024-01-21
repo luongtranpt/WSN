@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=GPIO27 Pin=JP1-2
+Removed Pin From Net: NetName=GPIO26 Pin=JP1-3
+Removed Pin From Net: NetName=GPIO25 Pin=JP1-4
+Removed Pin From Net: NetName=GPIO13 Pin=JP1-5
+Removed Pin From Net: NetName=GPIO15 Pin=JP1-6
+Removed Pin From Net: NetName=GPIO4 Pin=JP1-7
+Removed Pin From Net: NetName=GPIO34 Pin=JP2-1
+Removed Pin From Net: NetName=GPIO35 Pin=JP2-2
+Removed Pin From Net: NetName=GPIO5 Pin=JP2-4
+Removed Member From Class: ClassName=MCU Member=JP2
+Added Pin To Net: NetName=GPIO35 Pin=JP1-5
+Added Pin To Net: NetName=GPIO34 Pin=JP1-6
+Added Pin To Net: NetName=GPIO5 Pin=JP1-7
+Added Pin To Net: NetName=SCK Pin=IC1-20
+Added Pin To Net: NetName=SCK Pin=JP1-4
+Added Net: Name=SCK
+Added Pin To Net: NetName=SD0 Pin=IC1-21
+Added Pin To Net: NetName=SD0 Pin=JP1-3
+Added Net: Name=SD0
+Added Pin To Net: NetName=SDI Pin=IC1-22
+Added Pin To Net: NetName=SDI Pin=JP1-2
+Added Net: Name=SDI
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

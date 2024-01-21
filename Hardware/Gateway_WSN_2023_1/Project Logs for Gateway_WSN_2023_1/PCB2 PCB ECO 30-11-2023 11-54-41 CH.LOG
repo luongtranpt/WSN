@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=+5V Pin=1-2
+Removed Member From Class: ClassName=LORA Member=1
+Change Component Footprint: Designator=C1 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C2 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C3 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C10 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator=C11 Old Footprint=CAP_0402 New Footprint=CAP_0805
+Change Component Footprint: Designator= Old Footprint=DIODE S4 New Footprint=DIO-214AC(SMA)
+Change Component Footprint: Designator=LED1 Old Footprint=LED-3 New Footprint=LED-0805-Blue
+Change Component Footprint: Designator=LED2 Old Footprint=LED-3 New Footprint=LED-0805-Blue
+Change Component Footprint: Designator=LED4 Old Footprint=LED-3 New Footprint=LED-0805-Blue
+Change Component Footprint: Designator=LED5 Old Footprint=LED-3 New Footprint=LED-0805-Red
+Added Component: Designator=?(DIO-214AC(SMA))
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Chung_Loai"; Value = "Dán"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ghi_Chu"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH005519"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "Diode S4 SOD123 ( 1N5819 SOD123)"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V Pin=?-2
+Added Pin To Net: NetName=Net?_1 Pin=?-1
+Added Pin To Net: NetName=Net?_1 Pin=J1-1
+Added Net: Name=Net?_1
+Added Member To Class: ClassName=LORA Member=Component ? S4
+Added Member To Class: ClassName=MCU Member=Component  S4
+Added Member To Class: ClassName=MCU Member=Component U3 CH340C

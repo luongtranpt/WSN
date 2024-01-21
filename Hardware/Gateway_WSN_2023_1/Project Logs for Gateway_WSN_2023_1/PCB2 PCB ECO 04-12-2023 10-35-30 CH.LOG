@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=+5V Pin=C10-2
+Added Pin To Net: NetName=+5V Pin=C12-1
+Added Pin To Net: NetName=+5V Pin=DIO1-2
+Added Pin To Net: NetName=+5V Pin=U4-3
+Added Member To Class: ClassName=POWER Member=Component LED4 LED
+Added Member To Class: ClassName=POWER Member=Component R11 Resistor - SMD
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

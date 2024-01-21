@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=DIO1 Old Footprint=DIO-SMD-106 New Footprint=DIO-214AC(SMA)
+Change Component Footprint: Designator=R11 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R12 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER

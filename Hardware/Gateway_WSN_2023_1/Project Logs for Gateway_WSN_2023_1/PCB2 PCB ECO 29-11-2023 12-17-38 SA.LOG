@@ -1,0 +1,42 @@
+Change Component Footprint: Designator=R5 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R6 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R7 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R8 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R9 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Change Component Footprint: Designator=R10 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-0805
+Added Member To Class: ClassName=MCU Member=Component C4 104
+Added Member To Class: ClassName=MCU Member=Component C5 104
+Added Member To Class: ClassName=MCU Member=Component C6 104
+Added Member To Class: ClassName=MCU Member=Component C7 104
+Added Member To Class: ClassName=MCU Member=Component C8 104
+Added Member To Class: ClassName=MCU Member=Component C9 104
+Added Member To Class: ClassName=MCU Member=Component IC1 ESP32-WROOM-32
+Added Member To Class: ClassName=MCU Member=Component J2 USB-5
+Added Member To Class: ClassName=MCU Member=Component JP1 JP8 PIN
+Added Member To Class: ClassName=MCU Member=Component JP2 JP4
+Added Member To Class: ClassName=MCU Member=Component LED1 LED
+Added Member To Class: ClassName=MCU Member=Component LED2 LED
+Added Member To Class: ClassName=MCU Member=Component LED3 LED
+Added Member To Class: ClassName=MCU Member=Component Q1 2SC1815
+Added Member To Class: ClassName=MCU Member=Component Q2 2SC1815
+Added Member To Class: ClassName=MCU Member=Component R1 1K
+Added Member To Class: ClassName=MCU Member=Component R2 1K
+Added Member To Class: ClassName=MCU Member=Component R3 1K
+Added Member To Class: ClassName=MCU Member=Component R4 1K
+Added Member To Class: ClassName=MCU Member=Component R5 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component R6 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component R7 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component R8 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component R9 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component R10 Resistor - SMD
+Added Member To Class: ClassName=MCU Member=Component S1 SW-SMD
+Added Member To Class: ClassName=MCU Member=Component S2 SW-SMD
+Added Member To Class: ClassName=MCU Member=Component SW1 SW
+Added Member To Class: ClassName=MCU Member=Component SW2 SW
+Added Member To Class: ClassName=MCU Member=Component SW3 SW
+Added Member To Class: ClassName=MCU Member=Component  S4
+Added Member To Class: ClassName=MCU Member=Component U3 CH340C
+Added Room: Name=HMI
+Added Room: Name=LORA
+Added Room: Name=MCU
+Added Room: Name=POWER
